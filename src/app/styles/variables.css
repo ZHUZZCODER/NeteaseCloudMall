@@ -1,0 +1,9 @@
+@charset "UTF-8";
+:root {
+  /* 内容宽 */
+  --contentWidth: 1100px;
+  /* 导航栏宽 */
+  --navBarHeight: 73px;
+  /* logo宽 */
+  --logoWidth: 290px;
+}

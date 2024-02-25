@@ -1,6 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@layer base {
+  /* @import "./variables.module.scss"; */
+  body {
+    font-size: 14px;
+    color: #333;
+  }
+}
+@layer components {
+  .wrapper {
+    width: theme("width.1100p");
+    margin: 0 auto;
+  }
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -14,16 +27,6 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
