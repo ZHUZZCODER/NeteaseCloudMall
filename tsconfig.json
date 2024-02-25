@@ -19,10 +19,11 @@
     ],
     "paths": {
       "@/*": ["src/*"],
-      "@/components/*": ["src/app/components/*"],
-      "@/service/*": ["src/app/service/*"],
-      "@/store/*": ["src/app/store/*"],
-      "@/styles/*": ["src/app/styles/*"]
+      "@/components/*": ["src/components/*"],
+      "@/service/*": ["src/service/*"],
+      "@/store/*": ["src/store/*"],
+      "@/styles/*": ["src/styles/*"],
+      "@/assets/*": ["src/assets/*"]
     },
     "baseUrl": "."
   },

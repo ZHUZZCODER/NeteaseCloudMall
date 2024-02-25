@@ -1,6 +1,6 @@
 // 背景精灵图
 @mixin bgSpride() {
-  background-image: url("~/assets/images/spride.png");
+  background-image: url("@/assets/images/spride.png");
   background-repeat: no-repeat;
 }
 
